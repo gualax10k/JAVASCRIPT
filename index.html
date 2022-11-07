@@ -4,11 +4,138 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JAVASCRIPT</title>
-    <script src="./app.js"></script>
+    <title>ANABINAILS | UÑAS PERFECTAS EN TODO MOMENTO!</title>
+    <meta name="description" content="Servicio dedicado a embellecer uñas">
+    <meta name="keywords" content="uñas, servicio uñas, Jujuy, esmaltado, semipermante, capping, pedicura, cherimoya, uñas esculpidas">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="./scss/main.css">
+    
 </head>
 <body>
-    <h1>PRIMERA PRE ENTREGA</h1>
-    <h2>Alumno: Mario Fabian Gualampe</h2>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-transparent text-white">
+            <div class="container-md">
+                <a class="navbar-brand text-white fs-1" href="#">
+                    <h2 class="fs-1">ANABI NAILS</h2>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="d-flex justify-content-end">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active text-white fw-semibold" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white fw-semibold" href="./HTML/servicios.html">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white fw-semibold" href="./HTML/productos.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white fw-semibold" href="./HTML/promociones.html">Promociones</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white fw-semibold" href="./HTML/contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="./imagenes/bigstock-205505659-1170x600.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h1 class="fs-1 text-white">Servicio dedicado a embellecer uñas</h1>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="./imagenes/sisisis.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./imagenes/Colorful-Nails-1920x1200.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    <section>
+        <h2 class="listadoInicio text-center"> NUESTROS SERVICIOS </h2>
+    </section>
+        <br>
+        <section class="container-sm">
+            <div class="row">
+                <div class="col card">
+                    <img src="./assets/Semis.jpeg" class="card-img-top" alt="semis">
+                    <div class="text-center">
+                    <h5 class="tituloCard">Semis</h5>
+                    <a href="./HTML/servicios.html" class="btn btn-primary fs-4">Ir</a>
+                    </div>
+                </div>
+                <div class="col card">
+                        <img src="./assets/ExtensionSoftGel.jpeg" class="card-img-top" alt="Extension">
+                        <div class="text-center">
+                            <h5 class="tituloCard">Extension Soft Gel</h5>
+                            <a href="./HTML/servicios.html" class="btn btn-primary fs-4">Ir</a>
+                        </div>
+                </div>
+                <div class="col card">
+                        <img src="./assets/Capping.jpeg" class="card-img-top" alt="Capping">
+                        <div class="text-center">
+                        <h5 class="tituloCard">Capping</h5>
+                        <a href="./HTML/servicios.html" class="btn btn-primary fs-4">Ir</a>
+                        </div>
+                </div>
+            </div>
+        </section>
+    <section class="marcas">
+        <p>USAMOS LAS MEJORES MARCAS</p>
+        <div class="conteiner.xl">
+            <section class="marcas row">
+                <ul>
+                    <li class="uno"><img class="chhh"src="../assets/Sin título22222.png"></li>
+                    <li class="dos"><img class="ch" src="../assets/CHARMLIMITOK.png"></li>
+                    <li class="tres"><img class="chh" src="../assets/cherimoya.png"></li>
+                </ul>
+            </section>
+        </div>
+    </section>
+    <footer id="pieDePagina">
+        <div class="container-fluid">
+            <div class="row">
+              <div class="col-4">
+              </div>
+              <div class="col-4 text-center">
+                <h3>ANABI NAILS</h3>
+                <p class="text-center">3885100738</p>
+              </div>
+              <div class="col-4 logo d-flex flex-row-reverse">
+                <a href="#" target="_blank"><img src="./assets/whatsapp-logo-11.png"></a>
+                <a href="https://www.facebook.com/profile.php?id=100075174593851"target="_blank"><img src="./assets/Facebook.png"></a>
+                <a href="https://www.instagram.com/anabi.nails/"target="_blank"><img src="./assets/instagram.png"></a>
+              </div>
+            </div>
+          </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
 </body>
 </html>

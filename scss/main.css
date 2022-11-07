@@ -1,0 +1,237 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: linear-gradient(rgb(228, 117, 182), rgb(173, 45, 199), rgb(228, 117, 182), rgb(228, 117, 182));
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+.serviciosCards {
+  display: grid;
+}
+
+.servicioDescripcion {
+  color: white;
+}
+
+.listadoInicio {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  color: rgb(228, 117, 182);
+  font-size: 50px;
+  background-color: white;
+  margin-top: 40px;
+}
+
+.tituloCard {
+  font-size: 30px;
+  color: rgb(173, 45, 199);
+}
+
+.card-img-top {
+  margin-top: 12px;
+}
+
+.btn-primary {
+  background-color: rgb(173, 45, 199);
+  border-color: rgb(173, 45, 199);
+}
+
+.semi {
+  padding-top: 13%;
+}
+
+.extension {
+  padding-top: 6%;
+}
+
+.capping {
+  padding-top: 3%;
+}
+
+.manicura {
+  padding-top: 12%;
+}
+
+.row .cumpleañero {
+  font-size: 40px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  border-style: dashed;
+  border-color: white;
+  margin: 10px;
+}
+.row .amigas {
+  font-size: 40px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  border-style: dashed;
+  border-color: white;
+  margin: 10px;
+}
+.row .amigas p {
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.marcas p {
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  background-color: white;
+  color: rgb(228, 117, 182);
+}
+.marcas ul {
+  display: flex;
+  justify-content: center;
+}
+.marcas ul .uno {
+  display: flex;
+  justify-content: center;
+}
+.marcas .ch {
+  padding-top: 50px;
+  margin-left: 25px;
+  justify-content: center;
+}
+.marcas .chh {
+  padding-top: 0px;
+}
+.marcas .chhh {
+  padding-top: 25px;
+}
+
+.textoMarcas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 23px;
+  color: white;
+  text-align: center;
+}
+
+.formulario fieldset {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  font-size: 20px;
+  border-color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  color: white;
+}
+
+.cherimoya {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#pieDePagina {
+  background-color: rgba(24, 20, 20, 0.753);
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+#pieDePagina .logo {
+  padding-top: 10px;
+}
+#pieDePagina .logo a img {
+  width: 50px;
+  height: 50px;
+  gap: 10px;
+  margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+  .row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .row .card {
+    margin-top: 10px;
+    width: auto;
+  }
+  .row .card .card-img-top {
+    margin-top: 12px;
+  }
+  .row .card .btn-primary {
+    background-color: rgb(173, 45, 199);
+    border-color: rgb(173, 45, 199);
+  }
+  .row .tituloCard {
+    font-size: 23px;
+  }
+  .listadoInicio {
+    color: rgb(228, 117, 182);
+    font-size: 40px;
+    background-color: white;
+    margin-top: 40px;
+  }
+  .marcas p {
+    font-size: 26px;
+  }
+  .marcas ul {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+  .marcas ul .tres {
+    justify-content: center;
+    padding-left: 0px;
+  }
+  .marcas ul .uno {
+    justify-content: center;
+    padding-left: 0px;
+    margin-right: 20px;
+  }
+  .marcas ul .ch {
+    padding-left: 40px;
+    padding-top: 40px;
+  }
+  .marcas ul .chh {
+    padding-left: 40px;
+  }
+  .marcas ul .chhh {
+    padding-left: 30px;
+    padding-top: 30px;
+  }
+  .row .cumpleañero {
+    margin-left: 10px;
+  }
+  #pieDePagina {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+  #pieDePagina .logo {
+    padding-top: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  #pieDePagina .datos {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+  }
+}/*# sourceMappingURL=main.css.map */

@@ -1,6 +1,11 @@
+let nombre=prompt('Ingresá tu nombre');
+function saludar(nombre){
+    alert(`Hola ${nombre}. Bienvenido a AnabiNails`)};
+saludar(nombre);
+
 let valorUña;
 
-let uña = prompt(`Seleccione el estilo de uñas que desea:
+const uña = prompt(`Seleccione el estilo de uñas que desea:
     1. Semipermanentes
     2. Capping Gel
     3. Soft Gel
